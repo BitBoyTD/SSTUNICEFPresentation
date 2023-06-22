@@ -1,0 +1,103 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+@font-face {
+    font-family: 'lexend';
+    src: url(Lexend-VariableFont_wght.ttf);
+}
+
+body {
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #E7CEA6;
+    font-family: 'lexend';
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+}
+
+h1 {
+    color: #0A6EBD;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+h2 {
+    color: White;
+}
+
+p {
+    color: #0A6EBD;
+    font-size: 1.2rem;
+}
+
+.textImageSection {
+    display: flex;
+    flex-direction: row;
+    background: #A1C2F1;
+    padding: 20px;
+}
+
+#topRadius {
+    border-radius: 20px 20px 0 0;
+}
+
+.text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px 0 0;
+}
+
+footer {
+    height: 10vh;
+    background: #0A6EBD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #A1C2F1;
+}
+
+footer .text {
+    width: auto;
+}
+
+footer {
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 0px 20px black;
+    margin: 0 0 10px 0;
+}
+
+img {
+    width: 30vw;
+    border-radius: 20px;
+    border: solid 0.5rem #0A6EBD;
+}
+
+#logo {
+    width: 4vw;
+    position: absolute;
+    top: 10px;
+    left:10px;
+    border: solid 0.3rem #0A6EBD;
+}
